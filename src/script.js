@@ -1,4 +1,3 @@
-// video player functions
 import { togglePlay, shufflePlay } from "./videoPlayer";
 
 function removeTransition(e) {
