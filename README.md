@@ -8,6 +8,7 @@ This started out as a fun experiment to control animation with audio inputs. I f
 - record layers of drum patterns
 - edit individual layers
 - share their recordings
+- play on a mobile device
 
 ### To load up the Drum Machine
 
