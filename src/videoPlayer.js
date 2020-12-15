@@ -6,12 +6,12 @@ const toggle = player.querySelector(".toggle");
 const skipButtons = player.querySelectorAll("[data-skip]");
 const ranges = player.querySelectorAll(".player__slider");
 
-export function togglePlay() {
+function togglePlay() {
   const method = video.paused ? "play" : "pause";
   video[method]();
 }
 
-export function shufflePlay() {
+function shufflePlay() {
   const randomVidFrame = Math.random(video.currentTime / video.duration) * 1;
   video.currentTime += randomVidFrame;
 }
@@ -52,3 +52,8 @@ progress.addEventListener("click", scrub);
 progress.addEventListener("mousemove", (e) => mousedown && scrub(e));
 progress.addEventListener("mousedown", () => (mousedown = true));
 progress.addEventListener("mouseup", () => (mousedown = false));
+
+module.exports = {
+  togglePlay,
+  shufflePlay,
+};
