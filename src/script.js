@@ -29,7 +29,6 @@ function keyController(key) {
 
   switch (keyVal) {
     case "65": // A
-      // console.log("A", keyVal);
       shufflePlay();
       break;
     case "83": // S
@@ -61,6 +60,6 @@ function keyController(key) {
   }
 }
 
-const keys = Array.from(document.querySelectorAll(".key")); //convert from node list to array
+const keys = Array.from(document.querySelectorAll(".key"));
 keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
 window.addEventListener("keydown", playSound);
