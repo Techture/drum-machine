@@ -1,5 +1,5 @@
 // video player functions
-const { togglePlay, shufflePlay } = require("./videoPlayer");
+import { togglePlay, shufflePlay } from "./videoPlayer";
 
 function removeTransition(e) {
   if (e.propertyName !== "transform") return;
