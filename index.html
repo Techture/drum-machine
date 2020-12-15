@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DRUM/MACHINE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="src/script.js" defer></script>
+    <script src="src/videoPlayer.js" defer></script>
+  </head>
+  <body>
+    <!-- video player -->
+
+    <div class="main-wrapper">
+      <div class="player">
+        <video
+          class="player__video viewer"
+          src="img/wire_world_1.mp4"
+          loop="true"
+        ></video>
+
+        <div class="player__controls invisible">
+          <div class="progress">
+            <div class="progress__filled"></div>
+          </div>
+          <button class="player__button toggle" title="Toggle Play">►</button>
+          <!-- <input
+            type="range"
+            name="volume"
+            class="player__slider"
+            min="0"
+            max="1"
+            step="0.05"
+            value="1"
+          /> -->
+          <input
+            type="range"
+            name="playbackRate"
+            class="player__slider"
+            min="0.5"
+            max="2"
+            step="0.1"
+            value="1"
+          />
+          <!-- <button data-skip="-3" class="player__button">« 10s</button> -->
+          <!-- <button data-skip="5" class="player__button">25s »</button> -->
+        </div>
+      </div>
+      <!-- video player -->
+
+      <!-- drum kit -->
+      <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">openhat</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">ride</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">snare</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">tom</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">tink</span>
+        </div>
+      </div>
+      <!-- drum kit -->
+    </div>
+
+    <!-- audio samples -->
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+    <!-- audio samples -->
+  </body>
+</html>
