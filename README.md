@@ -8,3 +8,10 @@ This started out as a fun experiment to control animation with audio inputs. I f
 - record layers of drum patterns
 - edit individual layers
 - share their recordings
+
+### To load up the Drum Machine
+
+I'm using Parcel Bundler to keep things tidy.
+
+- run npm i
+- run npm start
