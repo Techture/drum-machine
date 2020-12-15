@@ -4,7 +4,7 @@ This started out as a fun experiment to control animation with audio inputs. I f
 
 ### Users will be able to:
 
-• select samples from a sound repository
-• record layers of drum patterns
-• edit individual layers
-• share their recordings
+- select samples from a sound repository
+- record layers of drum patterns
+- edit individual layers
+- share their recordings
