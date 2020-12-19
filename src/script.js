@@ -1,3 +1,3 @@
-import { setupDrumMachine } from "./drumMachine";
+import { setupDrumMachine } from "./drumMachine.js";
 
 setupDrumMachine();
