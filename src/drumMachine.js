@@ -5,7 +5,7 @@ import {
   updateButton,
   handleProgress,
   handleRangeUpdate,
-} from "./videoPlayer";
+} from "./videoPlayer.js";
 
 export function setupDrumMachine() {
   console.log("hello");
