@@ -3,6 +3,8 @@ This project began as an engaging experiment to synchronize animation with audio
 
 ### [Play](https://techture.github.io/drum-machine/)
 
+### Press the spacebar to play the video clip | Press the keys `ASDFGHJK` to play the drum hits. 
+
 #### Installation:
 
 ```
