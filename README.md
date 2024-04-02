@@ -1,7 +1,7 @@
 # Drum Machine
 This project began as an engaging experiment to synchronize animation with audio inputs. It evolved from a simple drum sampler to a custom video player, eventually merging these elements to create an interactive platform. The vision is to expand this project, offering a unique medium to share music and art interactively. Use your keyboard to play the drum kit, and control playback of the video clip.
 
-### [Visit](https://techture.github.io/drum-machine/)
+### [Play](https://techture.github.io/drum-machine/)
 
 #### Press the spacebar to play the video clip | Press the keys `A S D F G H J K L` to play the drum hits. 
 
