@@ -17,5 +17,4 @@ npm start
 or 
 yarn start
 ```
-Made with:
-Parcel Bundler: Utilized for its simplicity and efficiency
+Made with: Parcel Bundler, utilized for its simplicity and efficiency.
