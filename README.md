@@ -1,20 +1,26 @@
 # Drum Machine
+This project began as an engaging experiment to synchronize animation with audio inputs. It evolved from a simple drum sampler to a custom video player, eventually merging these elements to create an interactive platform. The vision is to expand this project, offering a unique medium to share music and art interactively.
 
-This started out as a fun experiment to control animation with audio inputs. I first learned how to make the drum sampler, then the custom video player, and that's when the two became one. I plan to scale this up in the next few months, as a medium to share my music and art in a truly interactive way.
+Features
+Users of the Drum Machine can use their keyboard to play a drum kit and control the playback of a video clip.
 
-### Users will be able to:
+### Installation:
 
-- select samples from a sound repository
-- record layers of drum patterns
-- edit individual layers
-- share their recordings
-- play on a mobile device
+```
+npm install
+or 
+yarn install
+```
 
-### To load up the Drum Machine
+Start the application using:
+```
+npm start
+or 
+yarn start
+```
 
-I'm using Parcel Bundler to keep things tidy.
+After starting the app, visit Drum Machine to play with it live.
 
-- npm i
-- npm start
-
-#### play - https://techture.github.io/drum-machine/
+Made with:
+Parcel Bundler: Utilized for its simplicity and efficiency
+#### [Play](https://techture.github.io/drum-machine/)
